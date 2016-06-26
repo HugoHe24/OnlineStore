@@ -17,10 +17,10 @@
 ## (Comments)
 
 #Sample Feature Definition Template
-@louginout
+@lougin_F
 Feature: User Login and Logout
 
-@loginout
+@login_S
 Scenario Outline: User successfully Login with Valid Credentials
 Given User is on the home page
 When User clicks the login button, nevigates to login page

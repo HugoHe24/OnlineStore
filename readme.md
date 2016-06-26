@@ -15,7 +15,7 @@ Right click -> Configure -> Convert to Maven Project
 - Add src/it/java source folder for Integration Testing
 - Add Feature folder for Cucumber feature files
 
-![Project Structure](https://github.com/HugoHe24/Resources/tree/master/img/OnlineStore/Project Structure.jpg)
+![Project Structure](https://raw.githubusercontent.com/HugoHe24/Resources/tree/master/img/OnlineStore/Project%20Structure.jpg)
 
 ####Add dependencies
 - selenium-java
@@ -193,7 +193,7 @@ public class OnlineStoreIT {
 ####Create definitions for the feature file
 We run the JUnit file, Cucumber would suggest that we should implement these methods so that the Steps mentioned in the Feature file can be traced to Java methods, which can be executed while executing the feature file.
 
-![Step Implementation](https://github.com/HugoHe24/Resources/tree/master/img/OnlineStore/StepImplementation.jpg)
+![Step Implementation](https://raw.githubusercontent.com/HugoHe24/Resources/tree/master/img/OnlineStore/StepImplementation.jpg)
 
 ```
 package test.stepdef;
@@ -284,9 +284,12 @@ Create a new repository on GitHub, name it "OnlineStore" and push the code into 
    Go to Manage Jenkins -> Configure System
    
   - Configure path for JDK, Maven and Git
-![Jenkins JDK Config](https://github.com/HugoHe24/Resources/tree/master/img/OnlineStore/Jenkins JDK Config.png)
-![Jenkins Maven Config](https://github.com/HugoHe24/Resources/tree/master/img/OnlineStore/Jenkins Maven Config.png)
-![Jenkins Git Config](https://github.com/HugoHe24/Resources/tree/master/img/OnlineStore/Jenkins Git Config.png)
+
+![Jenkins JDK Config](https://raw.githubusercontent.com/HugoHe24/Resources/tree/master/img/OnlineStore/Jenkins%20JDK%20Config.png)
+
+![Jenkins Maven Config](https://raw.githubusercontent.com/HugoHe24/Resources/tree/master/img/OnlineStore/Jenkins%20Maven%20Config.png)
+
+![Jenkins Git Config](https://raw.githubusercontent.com/HugoHe24/Resources/tree/master/img/OnlineStore/Jenkins%20Git%20Config.png)
 
  - Create and configure a freestyle project
 
